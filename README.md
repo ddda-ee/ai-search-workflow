@@ -333,3 +333,4 @@ output/请调研_NeRF_的基本原理_核心技术_代表性方法_20260907_1117
 
 ## License
 
+本项目采用 [MIT License](https://opensource.org/license/mit) 开源协议。
