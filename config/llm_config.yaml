@@ -1,0 +1,47 @@
+# 1. 模型提供商（Provider）资源池配置
+providers:
+  openai:
+    api_key: "${OPENAI_API_KEY}"
+    base_url: "https://api.openai.com/v1"
+  
+  deepseek:
+    api_key: "${DEEPSEEK_API_KEY}"
+    base_url: "https://api.deepseek.com"
+
+  siliconflow:
+    api_key: "${SILICONFLOW_API_KEY}"
+    base_url: "https://api.siliconflow.cn/v1"
+
+  openrouter:
+    api_key: "${OPENROUTER_API_KEY}"
+    base_url: "https://openrouter.ai/api/v1"
+
+# 2. 每个环节所绑定的厂商与模型
+stage_routing:
+  planner:
+    provider: "deepseek"
+    model: "deepseek-chat"
+
+  search_task_generator:
+    provider: "deepseek"
+    model: "deepseek-chat"
+
+  query_analyzer:
+    provider: "deepseek"
+    model: "deepseek-chat"
+
+  analyzer:
+    provider: "deepseek"
+    model: "deepseek-chat"
+
+  fact_checker:
+    provider: "deepseek"
+    model: "deepseek-chat"
+
+  synthesizer:
+    provider: "deepseek"
+    model: "deepseek-chat"
+
+  reviewer:
+    provider: "deepseek"
+    model: "deepseek-chat"

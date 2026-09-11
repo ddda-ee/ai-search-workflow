@@ -1,0 +1,19 @@
+# 数据建模与验证
+pydantic>=2.5.0
+
+# 大模型接口与配置管理
+openai>=1.12.0
+pyyaml>=6.0.1
+
+# 网络请求与网页/学术正文采集
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+pypdf>=4.0.0
+
+# 学术检索插件依赖
+arxiv>=2.1.0
+
+python-dotenv>=1.0.0
+
+# 开发与测试
+pytest>=8.0.0

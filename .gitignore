@@ -1,0 +1,20 @@
+# 环境与密钥（勿提交）
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 生成产物与本地缓存
+output/
+storage/cache.json
+config/llm_profiles.json
+
+# IDE
+.idea/
+.vscode/
+
+工作计划.md
